@@ -1,0 +1,150 @@
+.wrap {
+    margin: 0 auto;
+    width: 90%;
+   }
+
+#title {
+   font-family: "Times";
+   letter-spacing: 4px;
+   color: black;
+   text-decoration: none;
+   }
+
+nav {
+   margin: 35px -60px;
+   }
+
+nav ul a {
+   font-family: "Times";
+   padding: 20px;
+   color: black;
+   text-decoration: none;
+   }
+
+nav ul a:hover {
+   opacity: 0.4;
+   }
+
+nav ul li {
+   display: inline;
+   }
+
+.biglandscape {
+   margin: 1px 1px;
+   float: left;
+   width: 48.940373563%;
+   height: 350px;
+   }
+
+.landscape {
+   margin: 1px 1px;
+   float: left;
+   width: 32.596982%;
+   height: 266px;
+   }
+
+img {
+   width: 100%;
+   height: 100%;
+   }
+
+@media all and (min-width : 1000px) and (max-width : 1250px) {
+   .wrap {
+      margin: 0 auto;
+      width: 90%;
+      }
+   .biglandscape {
+      margin: -1px 1px;
+      width: 48.940373563%;
+      height: auto;
+      float: left;
+   	}
+   .landscape {
+      margin: -1px 1px;
+      width: 32.596982%;
+      height: auto;
+      float: left;
+      }
+	}
+
+@media all and (min-width : 769px) and (max-width : 999px) {
+   .wrap {
+      margin: 0 auto;
+      width: 90%;
+      }
+
+   nav {
+      margin: 35px 0px 35px -60px;
+      font-size: .9em;
+      }
+
+   .biglandscape, .landscape {
+      float: left;
+      margin: -1px 1px;
+      width: 48.940373563%;
+      height: auto;
+      }
+   }
+
+@media all and (min-width : 481px) and (max-width : 768px) {
+   .wrap {
+      margin: 0 auto;
+      width: 90%;
+      }
+
+   nav {
+      width: 100%;
+      margin: 0 auto;
+      text-align:  center;
+      font-size: .9em;
+      }
+
+   nav ul {
+      padding: 0px;
+      }
+
+   nav ul a {
+      display: block;
+      padding: 7px;
+      width: 100%;
+      margin: 0 auto;
+      }
+
+   .biglandscape, .landscape {
+      float: left;
+      margin: auto;
+      width: 100%;
+      height: auto;
+      }
+   }
+@media all and (max-width : 480px) {
+   .wrap {
+      margin: 0 auto;
+      width: 90%;
+      }
+
+   nav {
+      width: 100%;
+      margin: 0 auto;
+      text-align:  center;
+      font-size: .9em;
+      }
+
+   nav ul {
+      padding: 0px;
+      }
+
+   nav ul a {
+      display: block;
+      padding: 7px;
+      width: 100%;
+      margin: 0 auto;
+      }
+
+   .biglandscape, .landscape {
+      float: left;
+      margin: auto;
+      width: 100%;
+      height: auto;
+      }
+   }
