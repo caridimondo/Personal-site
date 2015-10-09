@@ -48,6 +48,13 @@ img {
    height: 100%;
    }
 
+iframe {
+   margin: 0 auto;
+   overflow: hidden;
+   width: 90%;
+   height: 100%;
+}
+
 @media all and (min-width : 1000px) and (max-width : 1250px) {
    .wrap {
       margin: 0 auto;
@@ -86,7 +93,7 @@ img {
       }
    }
 
-@media all and (min-width : 481px) and (max-width : 768px) {
+@media all and (min-width : 480.0000001px) and (max-width : 768px) {
    .wrap {
       margin: 0 auto;
       width: 90%;
